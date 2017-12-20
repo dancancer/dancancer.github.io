@@ -43,7 +43,7 @@
     
     <title>
         
-            归档: 2017 | 
+            搭一个树莓派音数播 | 
         
         某加班男
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="嗯？">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,树莓派">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="某加班男">
-    <meta name="msapplication-starturl" content="http://yoursite.com/archives/2017/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2017/12/19/Raspberry-Pi-Player/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="某加班男">
@@ -230,13 +230,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/archives/2017/">
+    <meta property="og:url" content="http://yoursite.com/2017/12/19/Raspberry-Pi-Player/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | 某加班男">
+    <meta property="og:title" content="搭一个树莓派音数播 | 某加班男">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="嗯？">
-    
+    <meta property="og:article:tag" content="树莓派"> 
 
+    
+        <meta property="article:published_time" content="Tue Dec 19 2017 22:56:15 GMT+0800">
+        <meta property="article:modified_time" content="Thu Dec 21 2017 01:48:48 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/2017/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2017/12/19/Raspberry-Pi-Player/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/2017/12/19/Raspberry-Pi-Player/index.html",
+    "headline": "搭一个树莓派音数播",
+    "datePublished": "Tue Dec 19 2017 22:56:15 GMT+0800",
+    "dateModified": "Thu Dec 21 2017 01:48:48 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "某加班男",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/dead_cells.jpg"
+        },
+        "description": "岁月不居，时节如流"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "某加班男",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",树莓派null",
+    "description": "嗯？",
+}
+</script>
 
 
     
@@ -284,96 +317,261 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-物料"><span class="post-toc-number">1.</span> <span class="post-toc-text"><a href="#1-&#x7269;&#x6599;" class="headerlink" title="1. &#x7269;&#x6599;"></a>1. &#x7269;&#x6599;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#树莓派b3"><span class="post-toc-number">1.1.</span> <span class="post-toc-text"><a href="#&#x6811;&#x8393;&#x6D3E;b3" class="headerlink" title="&#x6811;&#x8393;&#x6D3E;b3"></a>&#x6811;&#x8393;&#x6D3E;b3</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#tf卡一块"><span class="post-toc-number">1.2.</span> <span class="post-toc-text"><a href="#tf&#x5361;&#x4E00;&#x5757;" class="headerlink" title="tf&#x5361;&#x4E00;&#x5757;"></a>tf&#x5361;&#x4E00;&#x5757;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#usb电源一个"><span class="post-toc-number">1.3.</span> <span class="post-toc-text"><a href="#usb&#x7535;&#x6E90;&#x4E00;&#x4E2A;" class="headerlink" title="usb&#x7535;&#x6E90;&#x4E00;&#x4E2A;"></a>usb&#x7535;&#x6E90;&#x4E00;&#x4E2A;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#支持usb接口的dac一个"><span class="post-toc-number">1.4.</span> <span class="post-toc-text"><a href="#&#x652F;&#x6301;usb&#x63A5;&#x53E3;&#x7684;dac&#x4E00;&#x4E2A;" class="headerlink" title="&#x652F;&#x6301;usb&#x63A5;&#x53E3;&#x7684;dac&#x4E00;&#x4E2A;"></a>&#x652F;&#x6301;usb&#x63A5;&#x53E3;&#x7684;dac&#x4E00;&#x4E2A;</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-软件"><span class="post-toc-number">2.</span> <span class="post-toc-text"><a href="#2-&#x8F6F;&#x4EF6;" class="headerlink" title="2. &#x8F6F;&#x4EF6;"></a>2. &#x8F6F;&#x4EF6;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#平台系统"><span class="post-toc-number">2.1.</span> <span class="post-toc-text"><a href="#&#x5E73;&#x53F0;&#x7CFB;&#x7EDF;" class="headerlink" title="&#x5E73;&#x53F0;&#x7CFB;&#x7EDF;"></a>&#x5E73;&#x53F0;&#x7CFB;&#x7EDF;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#镜像写入软件"><span class="post-toc-number">2.2.</span> <span class="post-toc-text"><a href="#&#x955C;&#x50CF;&#x5199;&#x5165;&#x8F6F;&#x4EF6;" class="headerlink" title="&#x955C;&#x50CF;&#x5199;&#x5165;&#x8F6F;&#x4EF6;"></a>&#x955C;&#x50CF;&#x5199;&#x5165;&#x8F6F;&#x4EF6;</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-系统烧录"><span class="post-toc-number">3.</span> <span class="post-toc-text"><a href="#3-&#x7CFB;&#x7EDF;&#x70E7;&#x5F55;" class="headerlink" title="3. &#x7CFB;&#x7EDF;&#x70E7;&#x5F55;"></a>3. &#x7CFB;&#x7EDF;&#x70E7;&#x5F55;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-设备初始化"><span class="post-toc-number">4.</span> <span class="post-toc-text"><a href="#4-&#x8BBE;&#x5907;&#x521D;&#x59CB;&#x5316;" class="headerlink" title="4. &#x8BBE;&#x5907;&#x521D;&#x59CB;&#x5316;"></a>4. &#x8BBE;&#x5907;&#x521D;&#x59CB;&#x5316;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#使用有线方式："><span class="post-toc-number">4.1.</span> <span class="post-toc-text"><a href="#&#x4F7F;&#x7528;&#x6709;&#x7EBF;&#x65B9;&#x5F0F;&#xFF1A;" class="headerlink" title="&#x4F7F;&#x7528;&#x6709;&#x7EBF;&#x65B9;&#x5F0F;&#xFF1A;"></a>&#x4F7F;&#x7528;&#x6709;&#x7EBF;&#x65B9;&#x5F0F;&#xFF1A;</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#使用无线方式："><span class="post-toc-number">4.2.</span> <span class="post-toc-text"><a href="#&#x4F7F;&#x7528;&#x65E0;&#x7EBF;&#x65B9;&#x5F0F;&#xFF1A;" class="headerlink" title="&#x4F7F;&#x7528;&#x65E0;&#x7EBF;&#x65B9;&#x5F0F;&#xFF1A;"></a>&#x4F7F;&#x7528;&#x65E0;&#x7EBF;&#x65B9;&#x5F0F;&#xFF1A;</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Moode"><span class="post-toc-number">4.2.1.</span> <span class="post-toc-text"><a href="#Moode" class="headerlink" title="Moode:"></a>Moode:</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Volumio"><span class="post-toc-number">4.2.2.</span> <span class="post-toc-text"><a href="#Volumio" class="headerlink" title="Volumio:"></a>Volumio:</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-无线播放"><span class="post-toc-number">5.</span> <span class="post-toc-text"><a href="#5-&#x65E0;&#x7EBF;&#x64AD;&#x653E;" class="headerlink" title="5. &#x65E0;&#x7EBF;&#x64AD;&#x653E;"></a>5. &#x65E0;&#x7EBF;&#x64AD;&#x653E;</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-一些玩法分享"><span class="post-toc-number">6.</span> <span class="post-toc-text"><a href="#6-&#x4E00;&#x4E9B;&#x73A9;&#x6CD5;&#x5206;&#x4EAB;" class="headerlink" title="6. &#x4E00;&#x4E9B;&#x73A9;&#x6CD5;&#x5206;&#x4EAB;"></a>6. &#x4E00;&#x4E9B;&#x73A9;&#x6CD5;&#x5206;&#x4EAB;</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://cdn.volumio.org/wp-content/uploads/2016/07/volumio-audiophile-music-player-afold.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://cdn.volumio.org/wp-content/uploads/2016/07/volumio-audiophile-music-player-afold.jpg)">
+    
+            <p class="article-headline-p">
+                搭一个树莓派音数播
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/dead_cells.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>某加班男</strong>
+        <span>12月 19, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/12/19/Raspberry-Pi-Player/">搭一个树莓派音数播</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/树莓派/">树莓派</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            作为一个伪烧友，总是会周期性的折腾一些音频的玩意。最近莫名又开始到各个发烧坛子转悠。整天寻思着买个这个换个那个的。在绿坛偶尔看到一贴，介绍了下如何搭...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/12/19/Raspberry-Pi-Player/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/dead_cells.jpg" width="44px" height="44px" alt="某加班男's avatar">
-            </div>
-            <div>
-                <strong>某加班男</strong>
-                <span>12月 19, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/数码玩意/">数码玩意</a>, <a class="post_category-link" href="/categories/数码玩意/HuFi/">HuFi</a>
-              </span>
-            
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-            
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=搭一个树莓派音数播&url=http://yoursite.com/2017/12/19/Raspberry-Pi-Player/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=搭一个树莓派音数播&url=http://yoursite.com/2017/12/19/Raspberry-Pi-Player/index.html&via=某加班男" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/12/19/Raspberry-Pi-Player/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/12/19/Raspberry-Pi-Player/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
 </div>
 
-            
-            
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>作为一个伪烧友，总是会周期性的折腾一些音频的玩意。最近莫名又开始到各个发烧坛子转悠。整天寻思着买个这个换个那个的。在绿坛偶尔看到一贴，介绍了下如何搭建树莓派数播。细细看了下，发现似乎是一个花钱少提升大且好玩的东西，当即下单买了相关的材料回来开始折腾。如今树莓派数播已搭好半月有余，稍有心得，文以记之。</p>
+<h3 id="1-物料"><a href="#1-物料" class="headerlink" title="1. 物料"></a>1. 物料</h3><h4 id="树莓派b3"><a href="#树莓派b3" class="headerlink" title="树莓派b3"></a>树莓派b3</h4><ul>
+<li>淘宝搜一下，大概带盒子300块不到。</li>
+<li>盒子分原装和 diy 的，我用的是原装。</li>
+<li>板子分国产和日/英产，据说非国产的会更好声，两者价格一样，建议就买非国产啰。</li>
+<li>数播必然是要联网的，如果是打算用无线连接的的话， 盒子就不要买金属的。</li>
+<li>配件里还有散热片，也买一套，树莓派我基本不关机，散热稍微弄下放心点。</li>
+</ul>
+<h4 id="tf卡一块"><a href="#tf卡一块" class="headerlink" title="tf卡一块"></a>tf卡一块</h4><ul>
+<li>8g 以上，容量速度快些自然最好。</li>
+<li>如果想多玩几个系统的话，有条件可以多弄几块 TF 卡，装不同的系统来折腾比较方便，一张卡要反复灌来灌去比较烦。</li>
+</ul>
+<h4 id="usb电源一个"><a href="#usb电源一个" class="headerlink" title="usb电源一个"></a>usb电源一个</h4><ul>
+<li>用于给树莓派供电，普通充电头勉强也能用，但是最好功率大点，能支持 5v/2.5a 以上输出的最好。</li>
+<li>数播好歹也算个 HiFi 系统，所以升级电源应该也是能有正面效果的，有条件可以升级线电或者高级的开关电源。</li>
+</ul>
+<h4 id="支持usb接口的dac一个"><a href="#支持usb接口的dac一个" class="headerlink" title="支持usb接口的dac一个"></a>支持usb接口的dac一个</h4><ul>
+<li>其实树莓派本身的3.5接口也能做音频输出，但是在下好歹也算0.25个发烧友，所以还是接 DAC 吧。</li>
+</ul>
+<h3 id="2-软件"><a href="#2-软件" class="headerlink" title="2. 软件"></a>2. 软件</h3><h4 id="平台系统"><a href="#平台系统" class="headerlink" title="平台系统"></a>平台系统</h4><ul>
+<li>树莓派数播平台系统比较主流的有两个 <a href="http://moodeaudio.org/" target="_blank" rel="noopener">moode</a> 和 <a href="https://volumio.org" target="_blank" rel="noopener">volumio</a>  。相对来说 volumio  更商业化一些，从 UI 上来说比较易用， moode 在 UI 上则简陋一些。不过两者核心的音频播放都是基于 <a href="https://www.musicpd.org/" target="_blank" rel="noopener">MPD</a> 的， 并且 moode 相对更纯粹一些，所以理论上 moode 会更好声一点。volumio 网站上有编译好的镜像，直接<a href="https://volumio.org/get-started/" target="_blank" rel="noopener">下载</a>来写入到tf卡即可，moode 比较麻烦一点，需要自己编译镜像，编译文档见他们站点的 <a href="http://moodeaudio.org/docs/SOURCES.html" target="_blank" rel="noopener">sources</a> 部分。</li>
+</ul>
+<h4 id="镜像写入软件"><a href="#镜像写入软件" class="headerlink" title="镜像写入软件"></a>镜像写入软件</h4><ul>
+<li>windows 上的写入软件是 <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank" rel="noopener">Win32DiskImager</a> 使用比较简单。</li>
+</ul>
+<h3 id="3-系统烧录"><a href="#3-系统烧录" class="headerlink" title="3. 系统烧录"></a>3. 系统烧录</h3><p>硬件和软件都准备好了后就可以开始安装系统了，十分简单，使用 Win32DiskImager 把准备好的镜像写入到你的tf卡即可。</p>
+<p><img src="https://wx2.sinaimg.cn/mw690/5661916dgy1fmnpfcj7ksj20ds09i74c.jpg"></p>
+<h3 id="4-设备初始化"><a href="#4-设备初始化" class="headerlink" title="4. 设备初始化"></a>4. 设备初始化</h3><h4 id="使用有线方式："><a href="#使用有线方式：" class="headerlink" title="使用有线方式："></a>使用有线方式：</h4><p>有线方式的配置都比较简单，都是插网线，然后直接访问设备的ip即可进入对应设备的 web 控制界面， 就不多说了</p>
+<h4 id="使用无线方式："><a href="#使用无线方式：" class="headerlink" title="使用无线方式："></a>使用无线方式：</h4><p>两种系统基本都是通过 连接设备热点-&gt;填写配置信息 的方式来做无线连接初始化的，volumio 稍微人性化点，下面分别讲解下。</p>
+<h5 id="Moode"><a href="#Moode" class="headerlink" title="Moode:"></a>Moode:</h5><p>moode在系统启动后会自动启动一个 SSID 为 moode 的热点， 使用手机或者笔记本连接这个热点（密码是 moodeaudio），连接完成后直接访问 <a href="http://172.24.1.1" target="_blank" rel="noopener">http://172.24.1.1</a> 即可以连接到 web 控制界面，点击右上角，展开菜单，选择 Configure &gt; Network 进入网络连接配置菜单，选择你的无线网路的 SSID （没有的话多 scan 几次），在下方填入密码，重启 moode （点击上方的 restart） 重启完毕后 moode 会自动按配置接入无线网络，并注册一个“moode”的机器名， 直接访问 <a href="http://moode" target="_blank" rel="noopener">http://moode</a> 即可进入 web 控制界面了。</p>
+<p>展开菜单</p>
+<p><img width="240px" src="https://wx2.sinaimg.cn/mw1024/5661916dgy1fmnp22u4tej20ai0ik753.jpg"></p>
+<p>选择Network</p>
+<p><img width="240px" src="https://wx1.sinaimg.cn/mw690/5661916dgy1fmnpfcgcfoj20ah0ilwf6.jpg"></p>
+<p>配置无线网络信息</p>
+<p><img width="240px" src="https://wx4.sinaimg.cn/mw690/5661916dgy1fmnpfch84bj20ai0ilt96.jpg"></p>
+<h5 id="Volumio"><a href="#Volumio" class="headerlink" title="Volumio:"></a>Volumio:</h5><p>Volumio 在系统启动后会自动启动一个 ssid 为 Volumio 的热点， 使用手机或者笔记本连接这个热点（密码是 volumio2），连接完成后 iOS 系统会直接弹出一个 web 配置界面，其他系统可以访问 <a href="http://192.168.211.1" target="_blank" rel="noopener">http://192.168.211.1</a> 来进入它的 web 配置界面，volumio 是 step by step 配置方式，并且有中文，一路按提示配置就行了。全部配置完毕后点击重启， volumio 会自动按配置接入无线网络，找到设备的 ip 直接 http 访问即可进入 web 控制界面。除了 web 控制界面，volumio 还有专用的 iOS 和 Android 客户端。</p>
+<p>热点</p>
+<p><img width="240px" src="https://wx1.sinaimg.cn/mw690/5661916dly1fmno1vjmdbj20yi1pcwp4.jpg"></p>
+<p>进入配置页面，选择语言</p>
+<p><img width="240px" src="https://wx1.sinaimg.cn/mw690/5661916dly1fmno0y0a4dj20yi1pc7wl.jpg"></p>
+<p>设置设备名称</p>
+<p><img width="240px" src="https://wx3.sinaimg.cn/mw690/5661916dly1fmno1nuyb3j20yi1pcb2d.jpg"></p>
+<p>选择音频输出设备</p>
+<p><img width="240px" src="https://wx1.sinaimg.cn/mw690/5661916dly1fmno1uwsmyj20yi1pcqv8.jpg"></p>
+<p>配置无线网络连接</p>
+<p><img width="240px" src="https://wx3.sinaimg.cn/mw690/5661916dly1fmno1gfo44j20yi1pcx6q.jpg"></p>
+<p>挂载存储</p>
+<p><img width="240px" src="https://wx2.sinaimg.cn/mw690/5661916dly1fmno16243sj20yi1pc7wl.jpg"></p>
+<h3 id="5-无线播放"><a href="#5-无线播放" class="headerlink" title="5. 无线播放"></a>5. 无线播放</h3><p>玩数播我觉得连就是要无线播放，什么连nas或者挂载存储来放音乐的方式我觉得都不够方便，也不够好玩。moode 和 volumio 都支持 Airplay 和 UPnP 推送， Airplay 的好处不用多说了，手机上的各种音乐客户端的资源方便程度还是本地曲库没法比的。说下 UPnP 推送吧， 我用的是 foobar 来做推送的播放器， foobar2000 的官方网站上有两个 UPnP 相关的插件， 一个是 UPnP MediaRenderer Output 另一个是 UPnP/DLNA Renderer, Server, Control Point 。两个都可以用，但是推荐使用第一个，方便程度比第二个好很多。第一个插件安装完成后在 foobar 的 output 设置里会有相应的 UPnP 的输出设备可以选择。选完后直接按正常的方式来播放乐曲，就会推送到对应的 UPnP 设备了。</p>
+<p>foobar 输出设置</p>
+<p><img width="755px" src="https://wx3.sinaimg.cn/mw1024/5661916dgy1fmnq0nblygj20kz0fi3zl.jpg"></p>
+<p>Airplay</p>
+<image width="240px" src="https://wx4.sinaimg.cn/mw1024/5661916dly1fmno19pgq8j20yi1pcnpe.jpg">
+
+<h3 id="6-一些玩法分享"><a href="#6-一些玩法分享" class="headerlink" title="6. 一些玩法分享"></a>6. 一些玩法分享</h3><ul>
+<li>moode 支持 SoX 升频, 最高可到 32 bit 384 kHz, 设备支持的同学可以试试， SoX是一个效果挺不错的 resample 算法。</li>
+<li>foobar 也有非官方的 SoX resample 插件, 如果觉得树莓派的计算力不够不想在其上做 resample，也可以直接在foobar上resample后再推送过到树莓派上，有点类似 HQplayer 的玩法了。</li>
+<li>volumio 有闹钟功能，有一个HiFi音乐闹钟的感觉还是挺不错的，可以尝试一下。</li>
+</ul>
+</image>
         
     
 
     
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
-
-    
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
